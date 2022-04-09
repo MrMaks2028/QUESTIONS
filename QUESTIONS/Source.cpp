@@ -13,6 +13,7 @@ int main() {
 	switch (n) {
 		case 1: cout << PI * (b - a); break;
 		case 2: cout << a * b / PI; break;
+		case 3: cout << PI * a * b; break;
 		default: "ERROR";
 	}
 
